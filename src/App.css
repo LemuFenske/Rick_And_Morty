@@ -1,3 +1,94 @@
+body {
+   flex: content;
+   background-image: url('C:\Users\Usuario\Desktop\rick-and-morty\src\components\rick-morty-vat-acid.png');
+   background-size: 100% auto;
+   background-attachment: fixed;
+}
 .App {
    text-align: center;
+
 }
+
+/* .stars {
+   
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: black;
+ }
+ 
+ .stars:before,
+ .stars:after {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+ }
+ 
+ .stars:before {
+   z-index: -1;
+   background: url('https://cdn.pixabay.com/photo/2015/08/29/15/07/astronomy-913186_960_720.jpg') repeat;
+ }
+ 
+ .stars:after {
+   z-index: -2;
+   background: transparent;
+ }
+ 
+ .stars:before {
+   -webkit-animation: animStar 50s linear infinite;
+   -moz-animation: animStar 50s linear infinite;
+   -ms-animation: animStar 50s linear infinite;
+   -o-animation: animStar 50s linear infinite;
+   animation: animStar 50s linear infinite;
+ }
+ 
+ @-webkit-keyframes animStar {
+   from {
+     transform: translate(0, 0);
+   }
+   to {
+     transform: translate(-2000px, -2000px);
+   }
+ }
+ 
+ @-moz-keyframes animStar {
+   from {
+     transform: translate(0, 0);
+   }
+   to {
+     transform: translate(-2000px, -2000px);
+   }
+ }
+ 
+ @-ms-keyframes animStar {
+   from {
+     transform: translate(0, 0);
+   }
+   to {
+     transform: translate(-2000px, -2000px);
+   }
+ }
+ 
+ @-o-keyframes animStar {
+   from {
+     transform: translate(0, 0);
+   }
+   to {
+     transform: translate(-2000px, -2000px);
+   }
+ }
+ 
+ @keyframes animStar {
+   from {
+     transform: translate(0, 0);
+   }
+   to {
+     transform: translate(-2000px, -2000px);
+   }
+ }
+  */

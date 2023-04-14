@@ -1,0 +1,22 @@
+.perfil{
+    display: flex;
+    margin-top: 75px ;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 350px;
+    margin-left: 200px;
+    background-color: bisque;
+    border-radius: 20px;
+    padding: 30px;
+    
+}
+.img{
+    display: flex;
+    width: 300px;
+    border-radius: 30px;
+    margin-left: 200px;
+}

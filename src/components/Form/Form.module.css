@@ -1,0 +1,27 @@
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:  #394a51;
+    opacity: .80;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    width: fit-content;
+    padding: 25px;
+    margin: auto;
+    margin-top: 100px;
+    color: aliceblue;
+}
+.errors{
+    color: red;
+}
+.submit{
+    border: 0px;
+    color: black;
+    opacity: 1;
+    background-color: bisque;
+    display: flex;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}

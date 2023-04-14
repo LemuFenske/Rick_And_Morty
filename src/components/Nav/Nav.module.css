@@ -1,0 +1,50 @@
+.nav{
+    background-color: #394a51;
+    display: flex;
+    padding: 15px;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    /* position: fixed; */
+    /* z-index: 1000; */
+    /* width: 100%; */
+}
+.about {
+    border: 0px;
+    color: black;
+    background-color: bisque;
+    display: flex;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 10%;
+    text-decoration: none;
+}
+
+.about:hover {
+    background-color: rgb(253, 214, 166);
+  }
+  
+  .about:active {
+    background-color: rgb(253, 214, 166);
+  }
+
+
+.home {
+    border: 0px;
+    color: black;
+    background-color: bisque;
+    display: flex;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 200px;
+    cursor: pointer;
+    text-decoration: none;
+}  
+ /* Cambio de color de fondo al pasar el ratón */
+  .home:hover {
+    background-color: rgb(253, 214, 166);
+  }
+  
+  /* Cambio de color de fondo al hacer clic */
+  .home:active {
+    background-color: rgb(253, 214, 166);
+  }

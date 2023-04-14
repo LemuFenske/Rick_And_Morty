@@ -1,0 +1,33 @@
+.favorites{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.selector{
+    background-color: beige;
+    margin: 7px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.options{
+    border: 0;
+    border-radius: 5px;
+}
+
+.selector:hover{
+    background-color: rgb(221, 221, 188);
+}
+.selectores {
+    display: flex;
+    flex-direction: row;
+    background-color: #394a51;
+    justify-content: space-around;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
